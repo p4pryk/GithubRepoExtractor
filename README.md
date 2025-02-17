@@ -1,6 +1,6 @@
 # GitHub Repository Extractor
 
-GitHub Repository Extractor is a Python-based tool designed to extract the file tree and content from a GitHub repository and format it in a way that's ideal for pasting into LLM (Large Language Model) prompts. This tool clones the repository, builds a visual file tree, and processes each file—excluding configuration files like `.env`, and documentation files such as `README` and `prerequistes`.
+GitHub Repository Extractor is a Python-based tool designed to extract the file tree and content from a GitHub repository and format it in a way that's ideal for pasting into LLM (Large Language Model) prompts. This tool clones the repository, builds a visual file tree, and processes each file—excluding configuration files like `.env`, hidden files started with ".", and documentation files such as `README` and `prerequistes`.
 
 ## Features
 
